@@ -9,10 +9,12 @@
 
 <body>
     <header>
-        <nav>
-            <ul class="nav__links">
+        <nav class="container">
+            <ul class="links-left">
                 <li><a>About</a></li>
                 <li><a>Store</a></li>
+            </ul>
+            <ul class="links-right">
                 <li><a>Gmail</a></li>
                 <li><a>Images</a></li>
                 <li><a>Icon</a></li>
@@ -20,15 +22,19 @@
             </ul>
         </nav>
     </header>
+    <div class="ggl-form">
+        <img src="img/Google-Logo.png" alt="The Google logo">
 
-    <img src="img/Google-Logo.png" alt="The Google logo">
-
-    <form>
-        <input type="text" placeholder="Search...">
-        <input type="submit" value="Google Search">
-        <input type="submit" value="I'm Feeling Lucky">
-    </form> 
-
+        <form>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="search">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+            </div>
+        </form> 
+    </div>
 </body>
 
 </html>
