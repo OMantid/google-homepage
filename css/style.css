@@ -1,0 +1,30 @@
+/* .container {
+    background-color: aqua;
+    display: flex;
+}
+*/
+
+.links-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    padding: 1em;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+}
+
+.ggl-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 25%;
+}
+
