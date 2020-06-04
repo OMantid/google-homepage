@@ -1,1 +1,8 @@
-This project has to do with practicing on deconstructing and rebuilding a web-page. The web-page I'm choosing will be the google home page.
+# Project: Google Page Clone
+
+This project is a clone of **Google**'s homepage.
+
+### TO-DO LIST:
+- [x] Add the header and footer nav-bars
+- [] Style the header and footer nav-bars
+- [] Work on styling the Google form
